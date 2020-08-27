@@ -6,14 +6,14 @@
 
 ************
 Description
-- A platform for entreprenuers to share opportunities and engage in business dealings.
+A platform for entreprenuers to share opportunities and engage in business dealings.
 ************
 
 
 
 ************
 Requirements
-- Python version 3.8 or newer and Django version 3.0 or newer
+Python version 3.8 or newer and Django version 3.0 or newer
 ************
 
 
@@ -37,7 +37,7 @@ clone the repo
 Getting Help
 ************
 
-  *`Read the Docs <https://www.python.org/>`_.
-  *`Read the Docs <https://realpython.com/>`_.
+  *[Read the Docs ](https://www.python.org/)
+  *[Read the Docs ](https://realpython.com/)
 
 
