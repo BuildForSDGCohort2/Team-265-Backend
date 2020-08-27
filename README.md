@@ -4,19 +4,14 @@
 
 ## Bizkonnect Project
 
-************
-Description
-A platform for entreprenuers to share opportunities and engage in business dealings.
-************
 
+## Description
 
+- A platform for entreprenuers to share opportunities and engage in business dealings.
 
-************
-Requirements
-Python version 3.8 or newer and Django version 3.0 or newer
-************
+## Requirements
 
-
+- Python version 3.8 or newer and Django version 3.0 or newer
 
 
 ***********
