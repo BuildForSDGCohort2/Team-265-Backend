@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<h1>Welcome to BizKonnect!</h1>
+<!-- {% for a in blog_post %}
+{% include 'blog/list-inline.html' with blog_post=a truncate=True detail=False %}
+{% endfor %} -->
+<div class="card">
+<h1>{{my_greeting}}</h1>
+    {% for i in my_list %}
+        <li>{{i}}</li>
+    {% endfor %}
+{% endif %}
+</div>
+{% endblock %}

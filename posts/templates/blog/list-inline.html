@@ -1,0 +1,20 @@
+<!-- <li><a href="{{blog_post.get_absolute_url}}">{{blog_post.title}}</a></li> -->
+<div class="col-12 col-md-5 mx-auto">
+    <div class="card {% if not post.publish_date %} border border-warning text-dark {% endif %}" >
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{post.get_absolute_url}}">{{post.title}}</a></h5>
+            <p class="card-text">
+                <small class="text-muted">{{post.publish_date}}</small>
+                {% if truncate %}
+                {{post.content | linebreaks | truncatewords:30}}
+                {% else %}
+                {{post.content | linebreaks}} 
+                {% endif %}
+            </p>
+            {% if not detail %}
+                {% if not post.publish_date %} Draft {% endif %}
+            {% endif %}
+        </div>
+
+    </div>
+</div>
