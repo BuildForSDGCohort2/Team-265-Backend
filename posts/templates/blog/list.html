@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-12 col-md-10 mx-auto">
+    <div class="card border border-blue align-center text-dark background-dark" >
+        <div class="card-group">
+            <h3> Use CrowdKonnect to find a job that suit you and let the others know about your project. </h3>
+            {% if request.user.is_authenticated %}
+    {% if request.user.is_staff %}
+        <form action="">
+            <button href="{{object.get_create_url}}">Add Project</button>
+        </form>
+    {% endif %}
+{% endif %}
+        </div>
+
+    </div>
+</div>
+<div class="card-group" >
+{% for object in object_list %}
+{% include 'blog/list-inline.html' with post=object truncate=True detail=False %}
+
+
+{% endfor %}
+</div>
+
+
+{% endblock %}

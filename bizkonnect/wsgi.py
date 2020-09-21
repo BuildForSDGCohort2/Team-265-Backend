@@ -1,5 +1,5 @@
 """
-WSGI config for bizkonnect project.
+WSGI config for theorblog project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

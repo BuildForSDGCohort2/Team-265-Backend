@@ -2,5 +2,5 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "/home/bless/.local/share/virtualenvs/Team-265-Backend-XUfbWgER/bin/python"
+    "python.pythonPath": "/usr/bin/python3"
 }
